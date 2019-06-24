@@ -1,4 +1,5 @@
 import sys
+import time
 from requests_oauthlib import OAuth1Session
 
 CK = ""
@@ -15,7 +16,7 @@ try:
     tweet = input(">> " )
 except KeyboardInterrupt:
     print("exit")
-    exit(0)
+    sys.exit(0)
 
 print("*****************************************")
 
