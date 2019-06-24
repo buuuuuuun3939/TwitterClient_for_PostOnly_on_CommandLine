@@ -1,5 +1,4 @@
 import sys
-import time
 from requests_oauthlib import OAuth1Session
 
 CK = ""
